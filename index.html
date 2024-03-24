@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Noah and Zareen's Wedding</title>
+
+  <!-- The callback parameter is required, so we use console.debug as a noop -->
+  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK5LytGJlBmQ9jZG-klQ_jJFOtKakkPQY&callback=console.debug&libraries=maps,marker&v=beta">
+  </script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,6 +22,10 @@
       <h1>Noah and Zareen's Wedding</h1>
       <p>July 10, 2024 | Crested Butte, Colorado</p>
     </header>
+
+    <gmp-map center="38.8702507019043,-106.98816680908203" zoom="14" map-id="DEMO_MAP_ID">
+      <gmp-advanced-marker position="38.8702507019043,-106.98816680908203" title="My location"></gmp-advanced-marker>
+    </gmp-map>
 
     <section class="hotels">
       <h2>Hotels to Stay:</h2>
