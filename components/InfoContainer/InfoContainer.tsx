@@ -1,5 +1,5 @@
 import React from 'react';
-// import Header from './Header';
+import Header from '../Header/Header';
 import GoogleMap from '../GoogleMap';
 // import Hotels from './Hotels';
 // import Weather from './Weather';
@@ -11,7 +11,7 @@ import styles from './InfoContainer.module.css';
 const InfoContainer = () => {
   return (
     <div className={styles.infoContainer}>
-      {/* <Header /> */}
+      <Header />
       <GoogleMap />
       {/* <Hotels />
       <Weather />
