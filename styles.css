@@ -1,0 +1,123 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #F8F8F5; /* light cream background */
+    color: #4D5959; /* dark green-gray text */
+}
+
+.login-page {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.login-page h2, .thank-you-message {
+    color: #4e7108; /* olive green */
+}
+
+.login-page p {
+    color: #4e7108
+}
+
+input[type="password"], button {
+    border-radius: 5px;
+}
+
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #D4BB9C; /* light tan */
+    width: 250px;
+}
+
+button {
+    background-color: #5e850c; /* fresh green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7DA32D; /* darker green */
+}
+
+#login-error {
+    color: #C24848; /* rusty red */
+    margin-top: 10px;
+}
+
+.thank-you-message {
+    font-family: 'Georgia', cursive;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    color: #6B8E23; /* olive green */
+}
+
+/* Styles for the tab and tab content */
+.tab {
+    overflow: hidden;
+    background-color: #D7EBBC; /* light green for banner */
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 16px;
+    color: #6B8E23; /* olive green text */
+}
+
+.tab button:hover {
+    background-color: #C2DE95; /* medium green for hover */
+}
+
+.tab button.active {
+    background-color: #9BC53D; /* fresh green when active */
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border-top: none;
+}
+
+.tabcontent h2, .tabcontent h3 {
+    position: sticky;
+    top: 0;
+    background: #d3e4cd;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.ceremony-section {
+    font-family: 'Georgia', serif;
+    background-color: #FFF8F0; /* light peach background */
+    color: #4D5959; /* dark green-gray text */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.ceremony-section h2 {
+    border-bottom: 1px solid #D3D3D3; /* Light Gray */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.simple-divider {
+    border: 0;
+    height: 1px;
+    background-color: #D3D3D3; /* Simple solid light gray line */
+    margin: 20px 0;
+}
+.ceremony-section p {
+    line-height: 1.6; /* Improve line spacing */
+    margin-bottom: 15px;
+}
